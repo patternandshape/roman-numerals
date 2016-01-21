@@ -19,12 +19,12 @@ describe ("breakDown", function(){
   //   expect(breakDown(100)).to.eql(["C"]);
   // });
   //
-  // it("Will convert five hundreds to Roman bases", function() {
-  //   expect(breakDown(500)).to.eql(["D"]);
-  // });
+  it("Will convert five hundreds to Roman bases", function() {
+    expect(breakDown(500)).to.eql(["D"]);
+  });
 
   it("Will convert thousands to Roman bases", function() {
-    expect(breakDown(1000)).to.eql(["M"]);
+    expect(breakDown(2000)).to.eql(["M", "M"]);
   });
 
   it("Will convert input to Roman bases", function() {
