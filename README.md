@@ -1,29 +1,30 @@
 # Roman Numeral Converter
 
-#### Converts arabic numbers into Roman Numerals
+January 21, 2016
 
-#### By Abby Rolling and Molly Curtin
+##### By Molly Curtin &amp; Abby Rolling
 
-## Description
+### Description
 
 This will take a number from the user and output the equivalent in Roman Numerals.
 
-## Known Bugs
+##### Technologies Used
 
-Does not handle 4,9,40, etc cases; does not have a functioning error message for numbers greater than 3999.
-
-## Technologies Used
-
-* html
-* css
-* jquery
-* Javascript
-* Atom
-* Chai & Mocha
+* HTML
+* CSS
+* JavaScript
+* jQuery
+* Mocha
+* Chai
+* BDD
 * Git
 
-### License
+## Known Bugs
 
-Licensed under the GPL.
+Does not handle 4, 9, 40, etc cases; does not have a functioning error message for numbers greater than 3999.
 
-Copyright (c) 2016 **Abigail Rolling and Molly Curtin**
+##### License
+
+*This software is licensed under the MIT license.*
+
+&copy;2016 **Molly Curtin &amp; Abby Rolling**
